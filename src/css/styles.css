@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/open-sans/opensans-bold-webfont.woff') format('woff2'),
+         url('fonts/open-sans/opensans-bold-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/open-sans/opensans-regular-webfont.woff') format('woff2'),
+         url('fonts/open-sans/opensans-regular-webfont.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+body, embed, html{
+    height: 100%;
+    width: 100%;
+    font-family:  "opensans",sans-serif, serif;
+}
+
+.container {
+    background: gold;
+    border: 5px solid lightgrey;
+    width: 1140px;
+    position: relative;
+    left: 4rem;
+}
+
+img {
+    width: 90%;
+    height: 500px;
+}
+
+h1 {
+    font-family: sans-serif, serif;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: normal;
+}
